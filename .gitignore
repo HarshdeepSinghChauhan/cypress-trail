@@ -1,0 +1,15 @@
+# Node.js dependencies
+node_modules/
+
+# Cypress folders to ignore
+cypress/screenshots/
+cypress/videos/
+
+# IDE / Editor folders to ignore
+.idea/
+.vscode/
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db

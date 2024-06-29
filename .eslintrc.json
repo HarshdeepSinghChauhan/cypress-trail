@@ -1,0 +1,21 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "cypress/globals": true
+    },
+    "extends": [
+        "standard",
+        "plugin:cypress/recommended"
+    ],
+    "plugins": [
+        "chai-friendly"
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "rules": {
+        "no-unused-expressions": "off",
+        "chai-friendly/no-unused-expressions": "error"
+    }
+}
